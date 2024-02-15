@@ -1,0 +1,40 @@
+{
+  "tld": ".silly",
+  "token_symbol": "SILLY",
+  "token_contract": "7EYnhQoR9YM3N7UoaKRoA44Uy8JeaZV3qyouov87awMs",
+  "treasury_address": "JX73ZkmUZysvbDiHMQuJw9EFz27xys4nLA74wzp99gn",
+  "admin_address": "JX73ZkmUZysvbDiHMQuJw9EFz27xys4nLA74wzp99gn",
+  "sig_message": "silly-ns::",
+  "domains": [],
+  "molecules": {
+    "sig": "http://sol.molecule.sh/auth",
+    "spl": "https://molext1.com/solana/spl"
+  },
+  "counter": 0,
+  "pricing": {
+    "l1": 21200,
+    "l2": 19800,
+    "l3": 14000,
+    "l4": 4250,
+    "l5": 700,
+    "l6": 700,
+    "l7": 700,
+    "l8": 600,
+    "l9": 600,
+    "l10": 600,
+    "l11": 500,
+    "l12": 500,
+    "l13": 500,
+    "l14": 400,
+    "l15": 400
+  },
+  "signatures": [],
+  "payments": [],
+  "publicFunctions": {
+    "mint": ["caller", "sig", "domain", "tx_fee"],
+    "setPrimaryDomain": ["caller", "sig", "domain"],
+    "transfer": ["caller", "sig", "domain", "target"],
+    "resolve": ["domain", "address"],
+    "pauseUnpauseContract": ["sig"]
+  }
+}
