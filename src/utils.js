@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const AIKEK_FUNC_ADDR = `PbILSASd47G00ijDlqBOZD7aZSH3ZS2eX7LvXnFEWTU`;
+const AIKEK_FUNC_ADDR = `X8D-aO1yGRpB4aC3NzKmp2syAeBMjMsD_CinIxUEIsU`; // PbILSASd47G00ijDlqBOZD7aZSH3ZS2eX7LvXnFEWTU
 
 async function getState() {
   try {
