@@ -255,7 +255,6 @@ export async function handle(state, action) {
       ))?.asJSON();
 
       ContractAssert(tx[state.treasury_address] >= cost, "ERR_INVALID_PAYMENT");
-      ContractAssert(tx[from] * -1 >= cost, "ERR_INVALID_PAYMENT" );
       ContractAssert(tx[state.treasury_address] > tx[from], "ERR_INVALID_PAYMENT");
       ContractAssert(tx.token_address === state.token_contract, "ERR_INVALID_PAYMENT");
 
@@ -274,7 +273,6 @@ export async function handle(state, action) {
       ))?.asJSON();
 
       ContractAssert(tx[target] >= amount, "ERR_INVALID_PAYMENT");
-      ContractAssert(tx[from] * -1 >= amount, "ERR_INVALID_PAYMENT" );
       ContractAssert(tx[target] > tx[from], "ERR_INVALID_PAYMENT");
       ContractAssert(tx.token_address === state.token_contract, "ERR_INVALID_PAYMENT");
 

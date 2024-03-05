@@ -1,6 +1,8 @@
 
 test contract deployed @ [FzLG-doz5rFldRxVcHhaUVi6zNA0O1AdJGPoakTd2RA](https://api.mem.tech/api/state/FzLG-doz5rFldRxVcHhaUVi6zNA0O1AdJGPoakTd2RA)
 
+test contract deployed newer @ [Rhn7YAuDFeZDAW53LJKKfHWPpcggxB2LX92ylVrTPvw](https://api.mem.tech/api/state/Rhn7YAuDFeZDAW53LJKKfHWPpcggxB2LX92ylVrTPvw)
+
 dumb data
 ```
 https://molext1.com/solana/spl/2sHYeAP44GsrKCm17HbxWCFLPoajRQmJCRW4e4uq5oj2RDHWfs2prsGynkbWCNMASUp29F3a82tx9ZR4e3PLri8M/7EYnhQoR9YM3N7UoaKRoA44Uy8JeaZV3qyouov87awMs/JX73ZkmUZysvbDiHMQuJw9EFz27xys4nLA74wzp99gn/HPaeP1UwhNtiDexKrjeJNWmam7QnTKQNnuvMx3Ama2f7
