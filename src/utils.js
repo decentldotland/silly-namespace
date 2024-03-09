@@ -1,7 +1,8 @@
 import axios from "axios";
 
-const AIKEK_FUNC_ADDR = `PbILSASd47G00ijDlqBOZD7aZSH3ZS2eX7LvXnFEWTU`; 
-// X8D-aO1yGRpB4aC3NzKmp2syAeBMjMsD_CinIxUEIsU
+const AIKEK_FUNC_ADDR = `uDkavqXbZ1QOXt7SNr-cjxOYNAAplUzF4ob78LzMDL4`; 
+// PbILSASd47G00ijDlqBOZD7aZSH3ZS2eX7LvXnFEWTU
+
 async function getState() {
   try {
     return (
