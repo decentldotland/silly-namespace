@@ -1,7 +1,7 @@
 {
-  "name": "aikek-resolver",
+  "name": "silly-namespace",
   "version": "0.0.1",
-  "description": "Namespaces AIKEK resolver",
+  "description": "Namespaces Silly resolver",
   "main": "./src/api.js",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/decentldotland/aikek-resolver.git"
+    "url": "git+https://github.com/decentldotland/silly-namespace.git"
   },
   "keywords": [
     "AIKEK",
@@ -18,9 +18,9 @@
   "author": "charmful0x",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/decentldotland/aikek-resolver/issues"
+    "url": "https://github.com/decentldotland/aikek-namespace/issues"
   },
-  "homepage": "https://github.com/decentldotland/aikek-resolver#readme",
+  "homepage": "https://github.com/decentldotland/aikek-namespace#readme",
   "dependencies": {
     "axios": "^1.6.2",
     "body-parser": "^1.20.2",

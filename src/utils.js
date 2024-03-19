@@ -1,12 +1,11 @@
 import axios from "axios";
 
-const AIKEK_FUNC_ADDR = `uDkavqXbZ1QOXt7SNr-cjxOYNAAplUzF4ob78LzMDL4`; 
-// PbILSASd47G00ijDlqBOZD7aZSH3ZS2eX7LvXnFEWTU
+const SILLY_FUNC_ADDR = `Rhn7YAuDFeZDAW53LJKKfHWPpcggxB2LX92ylVrTPvw`; 
 
 async function getState() {
   try {
     return (
-      await axios.get(`https://api.mem.tech/api/state/${AIKEK_FUNC_ADDR}`)
+      await axios.get(`https://api.mem.tech/api/state/${SILLY_FUNC_ADDR}`)
     )?.data;
   } catch (error) {
     console.log(error);
