@@ -14,6 +14,8 @@ git pull https://github.com/decentldotland/silly-namespace.git
 npm install && npm run start
 ```
 
+### Base endpoint: https://silly-resolver-3dcc256b202f.herokuapp.com/
+
 ## Methods
 
 ### Resolve a domain
